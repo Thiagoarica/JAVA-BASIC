@@ -1,4 +1,4 @@
-package controller;
+package Programa.nota.controller;
 
 import javax.swing.*;
 
