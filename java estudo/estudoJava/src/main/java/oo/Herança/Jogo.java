@@ -2,23 +2,22 @@ package oo.Herança;
 
 public class Jogo {
     public static void main(String[] args) {
-        Heroi j1= new Heroi();
-        j1.x =10;
-        j1.y=10;
+        Heroi heroi = new Heroi();
+        heroi.x = 10;
+        heroi.y = 10;
 
 
+        Boss boss = new Boss();
+        boss.x = 10;
+        boss.y = 11;
+        System.out.println("heroi tem=>" + heroi.vida);
+        System.out.println("boss tem=>" + boss.vida);
 
-        Boss j2= new Boss();
-        j2.x =10;
-        j2.y=11;
 
-        System.out.println(j1.vida);
-        System.out.println(j2.vida);
-
-        j1.atacar(j2);
-        j2.atacar(j1);
-        System.out.println(j1.vida);
-        System.out.println(j2.vida);
+        heroi.atacar(boss);
+        boss.atacar(heroi);
+        System.out.println("heroi tem=>" + heroi.vida);
+        System.out.println("boss tem=>" + boss.vida);
 
 
     }
