@@ -18,4 +18,10 @@ public class Carro {
         return "Velocidade atual do seu brinquedo  é " + velocidadeAtual+ "km/h."+ " queremos mais " ;
     }
 
+    void ligarTurbo() {
+
+    }
+    void desligarTurbo(){
+
+    }
 }

@@ -8,6 +8,8 @@ public class CarroTeste {
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.acelerar();
+        ferrari.ligarTurbo();
+        ferrari.desligarTurbo();
 
 
         System.out.println(ferrari);
